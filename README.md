@@ -1,16 +1,16 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Prabhavalayam Detector 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: 3case
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Johan Biju Paul - SCMS School of Engineering and Technology
+- Member 2: C.R Vasudev Varma - SCMS School of Engineering and Technology
+- Member 3: Jopaul Jose - SCMS School of Engineering and Technology
 
 ### Project Description
 [2-3 lines about what your project does]
