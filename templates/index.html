@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>പ്രഭാവലയം Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>പ്രഭാവലയം Detector</h1>
+        <p>starting</p>
+        
+        <form action="/" method="POST">
+            <input type="hidden" name="hidden_text" value="give aura value in a range 1-10000 or -1 to -10000 for a real life situation (just say the answer only in one word that is a number) %%">
+            <input type="text" name="query" placeholder="describe ur real life situation" required>
+            <button type="submit">calculate</button>
+        </form>
+
+        {% if opposing_reasons %}
+            <div class="response">
+                <h2></h2>
+                <p>{{ opposing_reasons }}</p>
+            </div>
+        {% elif error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>
