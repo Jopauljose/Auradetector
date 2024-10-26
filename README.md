@@ -13,16 +13,30 @@
 - Member 3: Jopaul Jose - SCMS School of Engineering and Technology
 
 ### Project Description
+പ്രഭാവലയം Detector is a web application designed to detect the "aura" of a user-defined real-life situation, delivering a numerical value based on the user's input. The app integrates with Google's Gemini API to process text inputs and provides a straightforward numerical result, capturing the aura of the described scenario.
 
-[2-3 lines about what your project does]
+Features
+User Input Form: Allows users to describe their real-life situations.
+Aura Detection: Processes the input through the Gemini API and returns a unique aura value, calculated based on the user's description.
+Error Handling: Provides clear feedback if the input is invalid or if an error occurs.
+Intuitive UI: A visually appealing and simple user interface with a responsive design and gradient theme.
+Tech Stack
+Frontend: HTML, CSS
+Backend: Python, Flask
+Generative AI API: Google Gemini
+Usage
+Start the Flask server and open the app in your browser.
+Describe a real-life situation in the input form and submit it.
+View the aura result, which is a number ranging between ±1 and ±10000, representing the aura based on the situation described.
+
 
 ### The Problem (that doesn't exist)
 
-[What ridiculous problem are you solving?]
+Lack of Aura Visualization or Quantifying
 
 ### The Solution (that nobody asked for)
 
-[How are you solving it? Keep it fun!]
+Welcome to പ്രഭാവലയം Detector—the app that reads between the lines of your life’s weirdest, wildest, or most mundane moments and assigns them a mystical aura value! Whether you just spilled coffee on your shirt before a big meeting or you’re having an existential crisis in line at the grocery store, AuraDetector1’s got you. Enter your situation, and it gives you a unique aura score, letting you know just how "vibey" your life is today.
 
 ## Technical Details
 
@@ -49,7 +63,8 @@ pip install google-generativeai
 
 # Run
 
-[commands]
+flask run
+
 
 ### Project Documentation
 
@@ -57,59 +72,53 @@ For Software:
 
 # Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-_Add caption explaining what this shows_
+<img src="static/image.jpg" alt="Main Dashboard" width="400">
 
-![Screenshot2](Add screenshot 2 here with proper name)
-_Add caption explaining what this shows_
+The default page you reach after loading the website.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-_Add caption explaining what this shows_
+<img src="static/image2.jpg" alt="Main Dashboard" width="400">
+
+A case which shows negative aura detection after entering a user scneario.
+
+<img src="static/image3.jpg" alt="Main Dashboard" width="400">
+
+A case which shows positive aura detection after entering a user scneario.
 
 # Diagrams
 
-![Workflow](Add your workflow/architecture diagram here)
-_Add caption explaining your workflow_
+<img src="static/Work_flow_diagram.png" alt="Main Dashboard" width="400">
 
-For Hardware:
+1.Start
 
-# Schematic & Circuit
+2.The user accesses the web application.
+User Input Form
 
-![Circuit](Add your circuit diagram here)
-_Add caption explaining connections_
+3.The user enters a real-life situation in the text input field on the homepage and submits it.
+Send Query to Backend
 
-![Schematic](Add your schematic diagram here)
-_Add caption explaining the schematic_
+4.The form data (user's situation description) is sent to the Flask backend.
+Generate Response Using Gemini API
 
-# Build Photos
+5.The backend function get_opposing_reasons formats the user’s query, then sends it to the Gemini API for processing.
+Gemini API returns two types of responses: one for the aura value and one for roasting the situation.
+Display Response
 
-![Components](Add photo of your components here)
-_List out all components shown_
+6.The response from the Gemini API is rendered on the index.html page.
+If there’s an error, an error message is displayed instead.
 
-![Build](Add photos of build process here)
-_Explain the build steps_
-
-![Final](Add photo of final product here)
-_Explain the final build_
+7.End
+The user sees the response (aura value and optional roast) on the webpage.
 
 ### Project Demo
 
 # Video
 
-[Add your demo video link here]
-_Explain what the video demonstrates_
+<video width="640" height="480" controls>
+  <source src="static/aura_working.mp4" type="video/mp4">
+</video>
 
-# Additional Demos
 
-[Add any extra demo materials/links]
 
-## Team Contributions
-
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
----
 
 Made with ❤️ at TinkerHub Useless Projects
 

@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import google.generativeai as genai
 
 # Initialize the Flask application
-app = Flask("AuraDetector1")
+app = Flask("Auradetector")
 
 # Configure the Gemini API with your API key
 genai.configure(api_key="AIzaSyCKXQyrywDc4J9jacv4q1cGkhWkAV0-KpI")
