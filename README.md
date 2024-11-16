@@ -7,7 +7,7 @@
 [https://v4sud3v.pythonanywhere.com/](https://v4sud3v.pythonanywhere.com/)
 
 ### Note on API Response Time
-Please note that the application makes API calls to the Gemini model for generating aura values and responses. As a result, the response time may vary depending on several factors, including:
+Please note that the application makes API calls for generating aura values and responses. As a result, the response time may vary depending on several factors, including:
 
 - **API rate limits**: If the system has exceeded its request quota, responses may be delayed.
 - **API server load**: Performance may vary depending on the current load on the external API servers.
