@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request
-from flask_cors import CORS
 import google.generativeai as genai
 
 # Initialize the Flask application
+<<<<<<< HEAD:api/app.py
 app = Flask(
     "Auradetector", 
     static_folder="static",  # Adjust this to be relative to `api/`
@@ -10,6 +10,10 @@ app = Flask(
 )
 
 CORS(app)
+=======
+app = Flask("Auradetector")
+
+>>>>>>> parent of ea1346c (fix app exposure):app.py
 # Configure the Gemini API with your API key
 genai.configure(api_key="AIzaSyCKXQyrywDc4J9jacv4q1cGkhWkAV0-KpI")
 model = genai.GenerativeModel("gemini-1.5-flash")
@@ -41,4 +45,5 @@ def index():
             return render_template("index.html", error="Please enter a valid query.")
     return render_template("index.html")
 
-app = app
+if __name__ == "__main__":
+    app.run(debug=True)
