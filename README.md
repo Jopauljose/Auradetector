@@ -4,7 +4,17 @@
 
 
 ## Project URL
-https://v4sud3v.pythonanywhere.com/
+[https://v4sud3v.pythonanywhere.com/](https://v4sud3v.pythonanywhere.com/)
+
+### Note on API Response Time
+Please note that the application makes API calls to the Gemini model for generating aura values and responses. As a result, the response time may vary depending on several factors, including:
+
+- **API rate limits**: If the system has exceeded its request quota, responses may be delayed.
+- **API server load**: Performance may vary depending on the current load on the external API servers.
+- **Internet connection**: A slower network connection may impact the time taken for the API to respond.
+
+We recommend waiting a few moments for the results to be generated. If the page does not load or is taking longer than expected, please try again after some time.
+
 
 
 ## Basic Details
