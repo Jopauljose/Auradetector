@@ -2,6 +2,11 @@
 
 # Prabhavalayam Detector 🎯
 
+
+## Project URL
+https://v4sud3v.pythonanywhere.com/
+
+
 ## Basic Details
 
 ### Team Name: 3case
