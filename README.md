@@ -23,8 +23,8 @@ We recommend waiting a few moments for the results to be generated. If the page 
 
 ### Team Members
 
-- Team Lead: Johan Biju Paul - SCMS School of Engineering and Technology
-- Member 2: C.R Vasudev Varma - SCMS School of Engineering and Technology
+- Team Lead: C.R Vasudev Varma - SCMS School of Engineering and Technology
+- Member 2: Johan Biju Paul - SCMS School of Engineering and Technology
 - Member 3: Jopaul Jose - SCMS School of Engineering and Technology
 
 ### Project Description
