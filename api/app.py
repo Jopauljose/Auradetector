@@ -3,7 +3,12 @@ from flask_cors import CORS
 import google.generativeai as genai
 
 # Initialize the Flask application
-app = Flask("Auradetector", static_folder="../static", template_folder="../templates")
+app = Flask(
+    "Auradetector", 
+    static_folder="static",  # Adjust this to be relative to `api/`
+    template_folder="templates"
+)
+
 CORS(app)
 # Configure the Gemini API with your API key
 genai.configure(api_key="AIzaSyCKXQyrywDc4J9jacv4q1cGkhWkAV0-KpI")
