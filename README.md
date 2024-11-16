@@ -118,9 +118,7 @@ The user sees the response (aura value and optional roast) on the webpage.
 
 # Video
 
-<video width="640" height="480" controls>
-  <source src="static/aura_working.mp4" type="video/mp4">
-</video>
+![Watch the video](static/aura_working.mp4)
 
 
 
